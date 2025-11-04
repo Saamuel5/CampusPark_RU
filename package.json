@@ -12,4 +12,7 @@
   "dependencies": {
     "firebase": "^12.5.0"
   }
+"scripts": {
+  "build": "echo Building project... && exit 0",
+  "test": "echo \"Error: no test specified\" && exit 1"
 }
