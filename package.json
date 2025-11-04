@@ -15,5 +15,20 @@
     "@ionic/react-router": "^8.7.8",
     "firebase": "^12.5.0",
     "ionicons": "^8.0.13"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
