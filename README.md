@@ -67,7 +67,7 @@ Introduces the app’s purpose and rules for parking usage on campus.
 
 ---
 
-## 🔧 Technical Setup  
+## Technical Setup  
 
 ### Prerequisites  
 - Node.js ≥ 18  
