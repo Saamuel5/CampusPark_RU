@@ -29,39 +29,39 @@ This app connects to **Firebase Firestore** for real-time parking lot management
 
 ## App Flow  
 
-### 1️⃣ Splash / Logo Page  
+### 1) Splash / Logo Page  
 Displays the app logo with smooth transition into the login page.  
 
-### 2️⃣ Login / Signup  
+### 2) Login / Signup  
 - New users register with name, student ID, email, password, and parking type (Normal or OKU).  
 - OKU users must provide their OKU ID.  
 - Returning users can log in using their credentials.  
 
-### 3️⃣ Guidance Page  
+### 3) Guidance Page  
 Introduces the app’s purpose and rules for parking usage on campus.  
 
-### 4️⃣ Home Page  
+### 4) Home Page  
 - Displays parking zones (e.g., Zone A, Zone B).  
 - Shows available and reserved lots.  
 - Allows access to user profile and campus parking rules.  
 
-### 5️⃣ Zone Page (Parking Layout)  
+### 5) Zone Page (Parking Layout)  
 - Visual map of parking lots.  
 - Color-coded statuses:  
   (GREEN) Available | (RED) Occupied | (BLUE) OKU Only  
 - If a normal user selects an OKU slot → warning pop-up.  
 - Clicking a green lot opens the **Booking Form**.
 
-### 6️⃣ Booking Form Page  
+### 6) Booking Form Page  
 - Auto-filled fields: Name, Student ID, Zone, Lot Number.  
 - User inputs: Car plate number, Time In, Time Out.  
 - Data saved directly to **Firebase Firestore**.
 
-### 7️⃣ Confirmation Page  
+### 7) Confirmation Page  
 - Displays booking details for review.  
 - Options to **Edit**, **Delete**, or **Return Home**.  
 
-### 8️⃣ Sessions Page  
+### 8) Sessions Page  
 - **Current Tab**: Active bookings (editable).  
 - **History Tab**: Past bookings (view-only or deletable).  
 
@@ -88,6 +88,7 @@ npm install
 
 # 4. Run the app in development
 ionic serve
+```
 
 ##  Firebase Setup   
 
