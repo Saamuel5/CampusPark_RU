@@ -1,10 +1,10 @@
 # CampusPark_RU  
-*A smart parking app for Raffles University students and staff.*
+*A smart parking app for Raffles University students.*
 
 ---
 
 ## Overview  
-**CampusPark_RU** is a smart parking management system developed for **Raffles University** to help students and staff locate available parking spaces in real-time, manage their bookings, and minimize campus traffic congestion.  
+**CampusPark_RU** is a smart parking management system developed for **Raffles University** to help students locate available parking spaces in real-time, manage their bookings, and minimize campus traffic congestion.  
 
 This app connects to **Firebase Firestore** for real-time parking lot management and uses **local caching** for offline access and faster data loading.
 
